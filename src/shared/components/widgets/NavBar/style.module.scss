@@ -7,3 +7,21 @@
     left: 0;
     z-index: 10;
 }
+
+.logoWrapper {
+    width: 64px;
+    margin-left: 32px;
+    margin-top: 55px;
+    display: flex;
+}
+
+.navBtnWrapper {
+    margin-top: 85px;
+    margin-left: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 42px;
+    height: 574px;
+}

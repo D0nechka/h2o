@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #323F47;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.44px;
 }
 
 .app {
@@ -12,9 +18,8 @@
 .content {
     height: 100vh;
     width: calc(100% - 127px);
-    background: white;
+    background:#F8F8F8;
     z-index: 20;
     margin-left: auto;
     border-top-left-radius:56px;
-    padding: 0px 40px;
 }
