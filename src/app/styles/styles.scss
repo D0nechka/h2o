@@ -1,0 +1,20 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+}
+
+.content {
+    height: 100vh;
+    width: calc(100% - 127px);
+    background: white;
+    z-index: 20;
+    margin-left: auto;
+    border-top-left-radius:56px;
+    padding: 0px 40px;
+}
