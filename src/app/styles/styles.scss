@@ -11,6 +11,31 @@
     letter-spacing: 0.44px;
 }
 
+@font-face {
+    font-family: 'proxima-nova', ;
+    src: url('../assets/fonts/proximanova_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova', ;
+    src: url('../assets/fonts/proximanova_bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova', ;
+    src: url('../assets/fonts/proximanova_light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: 'proxima-nova', sans-serif;
+}
+
 .app {
     display: flex;
 }

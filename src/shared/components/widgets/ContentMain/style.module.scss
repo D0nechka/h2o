@@ -1,6 +1,7 @@
-.contentMain {
+.contentWrapper {
     background: #F8F8F8;;
     display: flex;
+    flex-direction: column;
     width: 1402px;
     height: calc(100vh - 154px);
     border-top-left-radius: 56px;
@@ -18,3 +19,8 @@ h2 {
     letter-spacing: -0.56px;
 }
 
+.contentBlock {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+}
