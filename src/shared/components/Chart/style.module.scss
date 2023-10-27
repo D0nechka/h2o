@@ -1,0 +1,56 @@
+.chartContainer {
+    width: 869px;
+    height: 426px;
+    background: #fff;
+    border-radius: 32px;
+    margin-top: 32px;
+    padding: 18px 33px 30px 18px;
+}
+
+.title {
+    color: #2D4258;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 44px; 
+}
+
+.periods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btnPeriod {
+    color: #D2D1D1;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.activeBtnPeriod {
+    color: #323F47;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4.5px; 
+        background: #54D3C2;
+        border-radius: 25px;
+        bottom: -10px;
+        left: 0;
+    }
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 804px;
+}

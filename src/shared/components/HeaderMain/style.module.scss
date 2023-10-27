@@ -1,0 +1,20 @@
+.headerWrapper {
+    position: absolute;
+    top: 0;
+    background-color: #FFF;
+    display: flex;
+    width: 1402px;
+    height: 100vh;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    z-index: -2;
+}
+
+.headerSelector {
+    display: flex;
+    align-items: center;
+    width: 883px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 57px;
+}

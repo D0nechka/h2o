@@ -11,33 +11,8 @@
     letter-spacing: 0.44px;
 }
 
-@font-face {
-    font-family: 'proxima-nova', ;
-    src: url('../assets/fonts/proximanova_regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'proxima-nova', ;
-    src: url('../assets/fonts/proximanova_bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'proxima-nova', ;
-    src: url('../assets/fonts/proximanova_light.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
-}
-
 body {
-    font-family: 'proxima-nova', sans-serif;
-}
-
-.app {
-    display: flex;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .content {
@@ -47,4 +22,15 @@ body {
     z-index: 20;
     margin-left: auto;
     border-top-left-radius:56px;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.app {
+    display: flex;
 }

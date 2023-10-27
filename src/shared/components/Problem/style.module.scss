@@ -1,0 +1,53 @@
+.problem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .warn {
+        background: #F7B731;
+    }
+}
+
+.warn {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warnContent {
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    padding-left: 1px;
+}
+
+.activeProblem {
+    .warn {
+        background: #FC5C65;
+    }
+}
+
+
+
+.problemInfo {
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+}
+
+.title {
+    color: #6D7986;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.amount {
+    color: #323F47;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+}

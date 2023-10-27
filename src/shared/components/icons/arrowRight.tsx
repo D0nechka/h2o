@@ -1,7 +1,5 @@
 /* eslint-disable max-len */
-import React from 'react';
-
-export const ArwRight: React.FC<React.SVGProps<SVGSVGElement>> = () => {
+export const ArrowRight = () => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

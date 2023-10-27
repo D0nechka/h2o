@@ -1,0 +1,23 @@
+.problemsBlockWrapper {
+    width: 414px;
+    height: 626px;
+    border-radius: 32px;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    padding: 37px 32px;
+    margin-left: 38px;
+}
+
+.mainTitle {
+    color: #2D4258; 
+    font-size: 20px;
+    letter-spacing: -0.56px;
+}
+
+.list {
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}

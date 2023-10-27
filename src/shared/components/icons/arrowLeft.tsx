@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
-
-export const ArwLeft: React.FC<React.SVGProps<SVGSVGElement>> = () => {
+export const ArrowLeft = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none">
             <g filter="url(#filter0_d_2629_72)">

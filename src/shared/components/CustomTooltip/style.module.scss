@@ -1,0 +1,28 @@
+.customTooltip {
+    border: 2px solid #A060FC;
+    padding: 0px 7px;
+    border-radius: 5px;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &::before {
+        bottom: -8px;
+        border-width: 7px 7px 0 7px;
+        border-style: solid;
+        border-color: #A060FC transparent transparent transparent;
+    }
+
+    &::after {
+        bottom: -4px;
+        border-width: 6px 6px 0 6px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+    }
+}
